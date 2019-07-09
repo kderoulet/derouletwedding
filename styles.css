@@ -1,0 +1,115 @@
+body {
+    background-color: rgba(249,248,248,1);
+    font-family: 'Playfair Display', 'Times New Roman', serif;;
+    padding: 0;
+    margin: 0;
+}
+
+#main-nav-container.fixed {
+    background-color: rgba(255,255,255,0.98);
+}
+
+nav {
+    letter-spacing: 2px;
+    background-color: rgba(255,255,255,0.98);
+    text-transform: uppercase;
+    color: #848484;
+    text-decoration: none;
+    position: fixed !important;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 5;
+    align-items: center;
+    padding: 0;
+    height: 84px;
+    width: 100%;
+    text-align: center;
+    line-height: 1.60;
+}
+
+li {
+    position: relative;
+    display: inline-block;
+    padding: 8px 12px;
+    text-transform: uppercase;
+}
+
+img {
+    max-width: 90%;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: #848484
+}
+
+button {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #000;
+    border-color: #000;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #fff;
+    padding: 0.46em 1.23em;
+}
+button:hover{
+    background-color: #f3f3f3;
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+.rsvp-link {
+    border-radius: 2px;
+    font-size: 18px;
+    line-height: 1.44;
+    letter-spacing: 1px;
+}
+
+#our-wedding {
+    text-align: center;
+}
+
+#img {
+    background-image: url("benicia.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 700px;
+    background-size: cover;    
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-family: 'Playfair Display', 'Times New Roman', serif;
+}
+
+#wedding-title {
+    font-size: 3rem !important;
+    line-height: 1.4 !important;
+    margin: 6px 0 8px 0;
+}
+
+.wedding-card {
+    font-family: 'Playfair Display';
+    text-align: center;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    max-width: 70%;
+    margin: 50px auto;
+    padding: 5% 10%;
+    box-sizing: border-box;
+}
+
+.wedding-card > h3 {
+    font-size: 1.7em;
+}
